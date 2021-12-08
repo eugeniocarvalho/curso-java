@@ -4,7 +4,10 @@ public class TestaCondicional2 {
     	System.out.println("Testando condicionais 2");
     	
     	int idade = 25;
-    	boolean estaAcompanhado = true;
+    	int quantidadePessoas = 3;
+    	boolean estaAcompanhado = quantidadePessoas >= 2;
+    	
+    	System.out.println("Valor de acompanhado = " + estaAcompanhado);
     	
     	if (idade >= 18 && estaAcompanhado) {
     		System.out.println("Pode passar");
