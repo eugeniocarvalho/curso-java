@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class TestaMês {
+public class TestaMes {
 	public static void main(String[] args) {
 		DateTimeFormatter date = DateTimeFormatter.ofPattern("MM");
 		int dateFormated = Integer.parseInt(date.format(LocalDateTime.now()));
